@@ -9,7 +9,7 @@ Node 18+, Docker (for Postgres).
 ```bash
 cd backend
 cp .env.example .env
-docker compose up -d        # starts Postgres on :5432
+docker compose up -d        # starts Postgres container (mapped to host port :5433)
 npm install                 # also generates the Prisma client
 npx prisma migrate deploy   # applies prisma/migrations to the database
 npm run dev                 # http://localhost:3000
