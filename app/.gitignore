@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables & secrets (CRITICAL - never commit secrets)
+.env
+.env.*
+*.env
+!.env.example
+!.env.template
+
+# Secret keys, keystores, certificates & native credentials
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.p8
+*.der
+*.pkcs12
+*.jks
+*.keystore
+*.truststore
+id_rsa*
+id_ed25519*
+id_ecdsa*
+*credentials*.json
+*service-account*.json
+client_secret*.json
+google-services.json
+GoogleService-Info.plist
+secrets.json
+secrets.yaml
+secrets.yml
+.secrets
+.secrets.*
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native builds & keys
+.kotlin/
+*.orig.*
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug & logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.*
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# TypeScript
+*.tsbuildinfo
+
+# Generated native folders
+/ios
+/android
